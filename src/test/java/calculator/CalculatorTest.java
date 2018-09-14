@@ -11,4 +11,10 @@ public class CalculatorTest {
 		Assert.assertEquals(result, 10);
 	}
 	
+	@Test
+	public void factorialOf5() {
+	    int result = Calculator.factorial(5);
+	    Assert.assertEquals(result, 120);
+	}
+	
 }
